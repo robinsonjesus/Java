@@ -1,0 +1,134 @@
+
+import java.awt.*;
+import java.awt.Graphics;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
+import javax.swing.*;
+import java.util.Random;
+
+import javax.swing.JPanel;
+
+public class GamePanel extends JPanel implements ActionListener{
+
+    // Declare everythng that we are going to need for this program
+	
+	// Declare the screen
+	static final int SCREEN_WIDTH = 600;	
+	static final int SCREEN_HEIGHT = 600;		
+
+	// How big do we want the objects in this game?
+	static final int UNIT_SIZE = 25;
+	
+	// How objects we can actually fit on the screen
+	static final int GAME_UNITS = (SCREEN_WIDTH * SCREEN_HEIGHT) / UNIT_SIZE;
+	
+	// Create a delay for our timer	
+	static final int DELAY = 75;
+	
+	
+	// Create two arrays for the position of the parts of the body of the snake, including the head	
+	final int x[] = new int[GAME_UNITS];
+	final int y[] = new int[GAME_UNITS];
+	
+	int bodyParts = 6; // there is no because
+	int applesEaten; // Apples that the snake has eaten
+	
+	int appleX; // The x coordinate of the apple when appear
+	int appleY; //The y coordinate of the apple when appear
+	
+	/* The direction of the snake can be:
+	 * R: RIGHT
+	 * L: LEFT
+	 * U: UP
+	 * D: DOWN 
+	 */
+	
+	char direction = 'R';
+	boolean running = false;
+	Timer timer;
+	Random random;
+	
+	
+	
+	// Create a constructor		
+	GamePanel() {
+		
+		// The first thing to do is create an instance of the random class
+		random = new Random();
+		this.setPreferredSize(new Dimension(SCREEN_WIDTH, SCREEN_HEIGHT));
+		this.setBackground(Color.black);
+		this.setFocusable(true);
+		this.addKeyListener(new  MyKeyAdapter());
+		startGame();
+	}
+	
+	// Create a method named startGame	
+	public void startGame() {
+		
+		newApple();
+		running = true;
+		// we pass "this" into the method because we want to use the action listener interface
+		timer = new Timer(DELAY, this);
+		
+	}
+	
+	// Create a method named paintComponents
+	// Parameter Grpahics g, I do not know what this does for now
+	
+	public void paintComponent(Graphics g) {
+		
+	}
+
+	// Create a method named draw
+	// Parameter Grpahics g, I do not know what this does for now
+	
+	public void draw(Graphics g) {
+		
+	}
+	
+	public void newApple() {
+		
+	}
+	
+	public void move() {
+		
+	}
+	
+	// Create a method for the action of eating apples, named checkApplr
+	
+	public void checkApple() {
+		
+	}
+	
+	// Create a method for check the collisions
+	
+	public void checkCollisions() {
+		
+	}	
+	
+	// create a game over method
+	
+	public void gameOver(Graphics g) {
+		
+	}
+	
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		
+	}
+	
+	public class MyKeyAdapter extends KeyAdapter{
+		
+		// Indicate that we are overriding a method 
+		@Override
+		
+		public void keyPressed(KeyEvent e) {
+			
+			
+		}
+		
+	}
+	
+}

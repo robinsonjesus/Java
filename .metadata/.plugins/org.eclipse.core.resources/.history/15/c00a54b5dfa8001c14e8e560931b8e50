@@ -1,0 +1,20 @@
+package core;
+
+public class Perro extends Mascota {
+	
+	public Perro(String anOwner) 
+	
+	{
+		super(anOwner, "Doggy");
+	}
+	
+	public String toString() {
+		
+		return 
+				("Soy un perro y mi owner es " 
+				+ getOwner() 
+				+ " y mi comida predilecta es " 
+				+ getPredilecta());
+		
+	}
+}

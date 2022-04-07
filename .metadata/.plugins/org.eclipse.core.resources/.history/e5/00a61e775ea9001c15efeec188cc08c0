@@ -1,0 +1,9 @@
+package examen;
+
+public class Shape 
+{
+	public double getArea() {
+		throw new RuntimeException("not implemented yet ");
+}
+	
+}

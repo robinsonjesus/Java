@@ -1,0 +1,11 @@
+package core;
+
+public class Leon extends Salvaje{
+	
+	public Leon() {
+		
+		super("carne");
+		
+	}
+
+}

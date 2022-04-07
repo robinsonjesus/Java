@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract interface &apos;geom.Line3DService&apos; from &apos;geom.Line3D&apos;&#x0D;&#x0A;- Original project: &apos;clase01&apos;&#x0D;&#x0A;- Original element: &apos;geom.Line3D&apos;&#x0D;&#x0A;- Extracted interface: &apos;geom.Line3DService&apos;&#x0D;&#x0A;- Extracted members:&#x0D;&#x0A;     geom.Line3D.lenght()" comments="true" description="Extract interface &apos;Line3DService&apos;" element1="/src&lt;geom{Line3D.java[Line3D~lenght" flags="589830" id="org.eclipse.jdt.ui.extract.interface" input="/src&lt;geom{Line3D.java[Line3D" instanceof="false" name="Line3DService" replace="false" stamp="1647383469187" version="1.0"/>
+</session>

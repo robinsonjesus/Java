@@ -1,0 +1,8 @@
+package core;
+
+public class PracticeAvecMoi {
+
+	System.out.println("murió en madrid");
+	
+
+}

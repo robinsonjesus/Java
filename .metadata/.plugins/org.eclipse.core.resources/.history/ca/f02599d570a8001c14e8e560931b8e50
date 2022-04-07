@@ -1,0 +1,23 @@
+package core;
+
+import java.util.ArrayList;
+
+public class Fibonacci {
+	
+	public static void main(String[] args) {
+		
+		
+		int[] nros;
+		
+		nros = new int[10];
+		
+		ArrayList<Integer> nros2 = new ArrayList<>();
+		
+		for (Integer i : nros2) {	
+			System.out.println(i);
+		
+		}
+		
+	}
+
+}

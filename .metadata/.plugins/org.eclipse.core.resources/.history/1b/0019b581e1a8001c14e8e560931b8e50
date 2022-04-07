@@ -1,0 +1,19 @@
+package core;
+
+public class Leon extends Salvaje{
+	
+	public Leon() {
+		
+		super("carne");
+		
+	}
+	
+	public String toString() {
+		
+		return 
+				("Soy un león, no tengo owner y mi comida predilecta es " 
+				+ super.toString());
+		
+	}
+
+}

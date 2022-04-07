@@ -1,0 +1,7 @@
+package core;
+
+public class PracticeAvecMoi {
+	
+	System.out.println(Math.pow(2,3));
+
+}

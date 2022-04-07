@@ -1,0 +1,23 @@
+package core;
+
+public class Gato extends Mascota 
+{
+
+	public Gato(String anOwner) 
+	{
+		super(anOwner, "Whiskas");
+	}
+	
+	
+	
+	
+	
+	// método tostring()
+	
+	public String toString() {
+		
+		return ("Soy Gato y " + super.toString());
+		
+	}
+	
+}

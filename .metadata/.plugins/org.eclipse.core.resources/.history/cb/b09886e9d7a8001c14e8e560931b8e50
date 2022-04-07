@@ -1,0 +1,16 @@
+package core;
+
+abstract public class Mascota extends Animal {
+	
+	private  String owner;
+	
+	public Mascota(String anOwner, String aPredilecta)
+	{
+		super(aPredilecta);
+		owner= anOwner;
+	}
+	
+	public String getOwner()
+	{
+		return owner;
+	}

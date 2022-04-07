@@ -1,0 +1,9 @@
+package core;
+
+public class Gato extends Mascota {
+
+	public Gato(String anOwner) 
+{
+		super(anOwner, "Whiskas");
+	}
+}

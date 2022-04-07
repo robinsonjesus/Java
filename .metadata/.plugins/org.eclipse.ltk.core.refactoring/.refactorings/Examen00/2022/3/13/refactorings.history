@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract interface &apos;examen.ShapeInterface&apos; from &apos;examen.Shape&apos;&#x0D;&#x0A;- Original project: &apos;Examen00&apos;&#x0D;&#x0A;- Original element: &apos;examen.Shape&apos;&#x0D;&#x0A;- Extracted interface: &apos;examen.ShapeInterface&apos;&#x0D;&#x0A;- Extracted members:&#x0D;&#x0A;     examen.Shape.getArea()&#x0D;&#x0A;     examen.Shape.getPerimeter()" comments="true" description="Extract interface &apos;ShapeInterface&apos;" element1="/src&lt;examen{Shape.java[Shape~getArea" element2="/src&lt;examen{Shape.java[Shape~getPerimeter" flags="589830" id="org.eclipse.jdt.ui.extract.interface" input="/src&lt;examen{Shape.java[Shape" instanceof="false" name="ShapeInterface" replace="false" stamp="1647900889914" version="1.0"/>
+</session>

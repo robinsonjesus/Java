@@ -1,0 +1,26 @@
+package core;
+
+public class Gato extends Mascota 
+{
+
+	public Gato(String anOwner) 
+	{
+		super(anOwner, "Whiskas");
+	}
+	
+	// método tostring()
+	
+	public String toString() {
+		
+		return // first, return the following string
+				("Soy un gato y mi owner es " 
+		        // get the owner by using getOwner method, that we bring from its parent class, mascota.
+				+ getOwner() 
+				// then, concatenate with the following string
+				+ " y mi comida predilecta es " 
+	            // then we get predilecta from Animal by using getPredilecta()
+				+ getPredilecta());
+		
+	}
+	
+}
